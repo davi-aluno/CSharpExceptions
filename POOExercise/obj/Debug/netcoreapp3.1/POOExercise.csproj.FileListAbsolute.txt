@@ -1,0 +1,13 @@
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.exe
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.deps.json
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.runtimeconfig.json
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.runtimeconfig.dev.json
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.dll
+C:\Users\davii\source\repos\POOExercise\POOExercise\bin\Debug\netcoreapp3.1\POOExercise.pdb
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.csprojAssemblyReference.cache
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.AssemblyInfoInputs.cache
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.AssemblyInfo.cs
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.csproj.CoreCompileInputs.cache
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.dll
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.pdb
+C:\Users\davii\source\repos\POOExercise\POOExercise\obj\Debug\netcoreapp3.1\POOExercise.genruntimeconfig.cache
