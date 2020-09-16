@@ -35,7 +35,7 @@ namespace POOExercise
             objPessoaFisica.DtNascFund = "01/01/2001";
             objPessoaFisica.Email = "davi.israel01@greensystem.com";
             objPessoaFisica.Id = 10;
-            objPessoaFisica.Cpf = "426.745.130-39";
+            objPessoaFisica.Cpf = "752.056.350-29";
             objPessoaFisica.Renda = 12000.00;
             objPessoaFisica.Sexo = "Masculino";
 
