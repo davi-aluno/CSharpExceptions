@@ -35,7 +35,7 @@ namespace POOExercise
             objPessoaFisica.DtNascFund = "01/01/2001";
             objPessoaFisica.Email = "davi.israel01@greensystem.com";
             objPessoaFisica.Id = 10;
-            objPessoaFisica.CPF = "426.745.130-39";
+            objPessoaFisica.Cpf = "426.745.130-39";
             objPessoaFisica.Renda = 12000.00;
             objPessoaFisica.Sexo = "Masculino";
 
@@ -71,7 +71,7 @@ namespace POOExercise
                               $"DtNascFund: {objPessoaFisica.DtNascFund}\n" +
                               $"Email: {objPessoaFisica.Email}\n" +
                               $"Id: {objPessoaFisica.Id}\n" +
-                              $"CPF: {objPessoaFisica.CPF}\n" +
+                              $"CPF: {objPessoaFisica.Cpf}\n" +
                               $"Renda: {objPessoaFisica.Renda}\n" +
                               $"Sexo: {objPessoaFisica.Sexo}\n" +
                               $"Endereço TipoEndereco: {objPessoaFisica.endereco.TipoEndereco}\n" +
