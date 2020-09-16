@@ -10,13 +10,13 @@ namespace POOExercise
             ClientePF    objClientePF = new ClientePF();
             PessoaFisica objPessoaFisica = new PessoaFisica();
 
-            objClientePJ.Nome = "Davi";
-            objClientePJ.DtNascFund = "01/01/2001";
-            objClientePJ.Email = "davi.israel01@greensystem.com";
-            objClientePJ.Id = 10;
-            objClientePJ.Cnpj = "95.796.199/0001-12";
-            objClientePJ.Lucro = 1000.00;
-            objClientePJ.TipoEmpresa = "Desenvolvimento de jogos";
+            objClientePJ.nome = "Davi";
+            objClientePJ.dtNascFund = "01/01/2001";
+            objClientePJ.email = "davi.israel01@greensystem.com";
+            objClientePJ.id = 10;
+            objClientePJ.cnpj = "95.796.199/0001-12";
+            objClientePJ.lucro = 10000.00;
+            objClientePJ.tipoEmpresa = "Desenvolvimento de jogos";
 
             objClientePJ.endereco = new Endereco();
             objClientePJ.endereco.TipoEndereco = "casa";
@@ -26,18 +26,18 @@ namespace POOExercise
             objClientePJ.endereco.Bairro = "Parque Marajoara 2";
             objClientePJ.endereco.Complemento = "Perto de uma escola";
 
-            objClientePF.Id = 13;
-            objClientePF.Cpf = "426.745.130-39";
-            objClientePF.Renda = "1000,00 R$";
-            objClientePF.Sexo = "Masculino";
+            objClientePF.id = 13;
+            objClientePF.cpf = "426.745.130-39";
+            objClientePF.renda = 15000.00;
+            objClientePF.sexo = "Masculino";
 
-            objPessoaFisica.Nome = "Davi";
-            objPessoaFisica.DtNascFund = "01/01/2001";
-            objPessoaFisica.Email = "davi.israel01@greensystem.com";
-            objPessoaFisica.Id = 10;
-            objPessoaFisica.Cpf = "752.056.350-29";
-            objPessoaFisica.Renda = 12000.00;
-            objPessoaFisica.Sexo = "Masculino";
+            objPessoaFisica.nome = "Davi";
+            objPessoaFisica.dtNascFund = "01/01/2001";
+            objPessoaFisica.email = "davi.israel01@greensystem.com";
+            objPessoaFisica.id = 10;
+            objPessoaFisica.cpf = "752.056.350-29";
+            objPessoaFisica.renda = 12000.00;
+            objPessoaFisica.sexo = "Masculino";
 
             objPessoaFisica.endereco = new Endereco();
             objPessoaFisica.endereco.TipoEndereco = "casa";
@@ -48,13 +48,14 @@ namespace POOExercise
             objPessoaFisica.endereco.Complemento = "Perto de uma escola";
 
             Console.WriteLine($"objClientePJ:\n" +
-                              $"Nome: {objClientePJ.Nome}\n" +
-                              $"DtNascFund: {objClientePJ.DtNascFund}\n" +
-                              $"Email: {objClientePJ.Email}\n" +
-                              $"Id: {objClientePJ.Id}\n" +
-                              $"Cnpj: {objClientePJ.Cnpj}\n" +
-                              $"Lucro: {objClientePJ.Lucro}\n" +
-                              $"TipoEmpresa: {objClientePJ.TipoEmpresa}\n" +
+                              $"Nome: {objClientePJ.nome}\n" +
+                              $"DtNascFund: {objClientePJ.dtNascFund}\n" +
+                              $"Email: {objClientePJ.email}\n" +
+                              $"Id: {objClientePJ.id}\n" +
+                              $"Cnpj: {objClientePJ.cnpj}\n" +
+                              $"Lucro: {objClientePJ.lucro}\n" +
+                              $"TipoEmpresa: {objClientePJ.tipoEmpresa}\n\n" +
+                              $"Informações completas do endereço da ClientePJ:\n" +
                               $"Endereço TipoEndereco: {objClientePJ.endereco.TipoEndereco}\n" +
                               $"Endereço ID: {objClientePJ.endereco.Id}\n" +
                               $"Endereço Cidade: {objClientePJ.endereco.Cidade}\n" +
@@ -62,18 +63,19 @@ namespace POOExercise
                               $"Endereço Bairro: {objClientePJ.endereco.Bairro}\n" +
                               $"Endereco Complemento: {objClientePJ.endereco.Complemento}\n\n" +
                               $"objClientePF:\n" +
-                              $"Id: {objClientePF.Id}\n" +
-                              $"Cpf: {objClientePF.Cpf}\n" +
-                              $"Renda: {objClientePF.Renda}\n" +
-                              $"Sexo: {objClientePF.Sexo}\n\n" +
+                              $"Id: {objClientePF.id}\n" +
+                              $"Cpf: {objClientePF.cpf}\n" +
+                              $"Renda: {objClientePF.renda}\n" +
+                              $"Sexo: {objClientePF.sexo}\n\n" +
                               $"objPessoaFisica:\n" +
-                              $"Nome: {objPessoaFisica.Nome}\n" +
-                              $"DtNascFund: {objPessoaFisica.DtNascFund}\n" +
-                              $"Email: {objPessoaFisica.Email}\n" +
-                              $"Id: {objPessoaFisica.Id}\n" +
-                              $"CPF: {objPessoaFisica.Cpf}\n" +
-                              $"Renda: {objPessoaFisica.Renda}\n" +
-                              $"Sexo: {objPessoaFisica.Sexo}\n" +
+                              $"Nome: {objPessoaFisica.nome}\n" +
+                              $"DtNascFund: {objPessoaFisica.dtNascFund}\n" +
+                              $"Email: {objPessoaFisica.email}\n" +
+                              $"Id: {objPessoaFisica.id}\n" +
+                              $"CPF: {objPessoaFisica.cpf}\n" +
+                              $"Renda: {objPessoaFisica.renda}\n" +
+                              $"Sexo: {objPessoaFisica.sexo}\n\n" +
+                              $"Informações completas do endereço da PessoaFisica:\n" +
                               $"Endereço TipoEndereco: {objPessoaFisica.endereco.TipoEndereco}\n" +
                               $"Endereço ID: {objPessoaFisica.endereco.Id}\n" +
                               $"Endereço Cidade: {objPessoaFisica.endereco.Cidade}\n" +
