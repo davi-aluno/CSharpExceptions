@@ -32,8 +32,8 @@ namespace POOExercise
             objClientePF.sexo = "Masculino";
 
             objPessoaFisica.nome = "Davi";
-            objPessoaFisica.dtNascFund = "01/01/2001";
-            objPessoaFisica.email = "davi.israel01@greensystem.com";
+            objPessoaFisica.dtNascFund = "01/05/2020";
+            objPessoaFisica.email = "davi123@greensystem.com";
             objPessoaFisica.id = 10;
             objPessoaFisica.cpf = "752.056.350-29";
             objPessoaFisica.renda = 12000.00;
@@ -44,8 +44,8 @@ namespace POOExercise
             objPessoaFisica.endereco.Id = 11;
             objPessoaFisica.endereco.Cidade = "São Paulo";
             objPessoaFisica.endereco.Logradouro = "Santo André";
-            objPessoaFisica.endereco.Bairro = "Parque Marajoara 2";
-            objPessoaFisica.endereco.Complemento = "Perto de uma escola";
+            objPessoaFisica.endereco.Bairro = "Parque Marajoara 1";
+            objPessoaFisica.endereco.Complemento = "Perto de um mercado";
 
             Console.WriteLine($"objClientePJ:\n" +
                               $"Nome: {objClientePJ.nome}\n" +
