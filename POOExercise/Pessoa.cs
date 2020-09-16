@@ -6,9 +6,27 @@ namespace POOExercise
 {
     abstract class Pessoa
     {
-        public string nome;
-        public string dtNascFund;
-        public string email;
+        private string nome;
+        private string dtNascFund;
+        private string email;
         public Endereco endereco;
+
+        public string Nome
+        {
+            get => nome;
+            set => nome = value;
+        }
+
+        public string DtNascFund
+        {
+            get => dtNascFund;
+            set => dtNascFund = value;
+        }
+
+        public string Email
+        {
+            get => email;
+            set => email = value;
+        }
     }
 }
