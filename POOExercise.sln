@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POOExercise", "POOExercise\POOExercise.csproj", "{F671393D-89EB-45E9-B76C-06F1A1EAFAB9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "POOExercise", "POOExercise\POOExercise.csproj", "{F671393D-89EB-45E9-B76C-06F1A1EAFAB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Collections", "Collections\Collections.csproj", "{116E678B-3964-4CEF-BCEA-F03C773F4016}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{F671393D-89EB-45E9-B76C-06F1A1EAFAB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F671393D-89EB-45E9-B76C-06F1A1EAFAB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F671393D-89EB-45E9-B76C-06F1A1EAFAB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{116E678B-3964-4CEF-BCEA-F03C773F4016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{116E678B-3964-4CEF-BCEA-F03C773F4016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{116E678B-3964-4CEF-BCEA-F03C773F4016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{116E678B-3964-4CEF-BCEA-F03C773F4016}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
