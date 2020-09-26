@@ -60,10 +60,10 @@ namespace Collections
             objPessoaFisica3.ListaEnderecos.Add(endereco5);
             objPessoaFisica3.ListaEnderecos.Add(endereco6);
 
-            Queue<PessoaFisica> pessoaFisica = new Queue<PessoaFisica>();
-            pessoaFisica.Enqueue(objPessoaFisica1);
-            pessoaFisica.Enqueue(objPessoaFisica2);
-            pessoaFisica.Enqueue(objPessoaFisica3);
+            List<PessoaFisica> pessoaFisica = new List<PessoaFisica>();
+            pessoaFisica.Add(objPessoaFisica1);
+            pessoaFisica.Add(objPessoaFisica2);
+            pessoaFisica.Add(objPessoaFisica3);
 
             foreach(var pessoas in pessoaFisica)
             {
