@@ -23,22 +23,42 @@ namespace Collections
             endereco1.Id = 1;
             endereco1.Bairro = "bairro1";
             endereco1.Logradouro = "estatico";
-            objPessoaFisica1.ListaEnderecos = new List<Endereco>();
-            objPessoaFisica1.ListaEnderecos.Add(endereco1);
 
             Endereco endereco2 = new Endereco();
             endereco2.Id = 2;
             endereco2.Bairro = "bairro2";
             endereco2.Logradouro = "dinamico";
-            objPessoaFisica2.ListaEnderecos = new List<Endereco>();
-            objPessoaFisica2.ListaEnderecos.Add(endereco2);
+
+            objPessoaFisica1.ListaEnderecos = new List<Endereco>();
+            objPessoaFisica1.ListaEnderecos.Add(endereco1);
+            objPessoaFisica1.ListaEnderecos.Add(endereco2);
 
             Endereco endereco3 = new Endereco();
             endereco3.Id = 3;
             endereco3.Bairro = "bairro3";
-            endereco3.Logradouro = "estatico";
+            endereco3.Logradouro = "dinamico";
+            objPessoaFisica2.ListaEnderecos = new List<Endereco>();
+            objPessoaFisica2.ListaEnderecos.Add(endereco3);
+
+            Endereco endereco4 = new Endereco();
+            endereco4.Id = 4;
+            endereco4.Bairro = "bairro4";
+            endereco4.Logradouro = "estatico";
+
+            Endereco endereco5 = new Endereco();
+            endereco5.Id = 5;
+            endereco5.Bairro = "bairro5";
+            endereco5.Logradouro = "dinamico";
+
+            Endereco endereco6 = new Endereco();
+            endereco6.Id = 6;
+            endereco6.Bairro = "bairro6";
+            endereco6.Logradouro = "dinamico";
+
             objPessoaFisica3.ListaEnderecos = new List<Endereco>();
-            objPessoaFisica3.ListaEnderecos.Add(endereco3);
+            objPessoaFisica3.ListaEnderecos.Add(endereco4);
+            objPessoaFisica3.ListaEnderecos.Add(endereco5);
+            objPessoaFisica3.ListaEnderecos.Add(endereco6);
 
             Queue<PessoaFisica> pessoaFisica = new Queue<PessoaFisica>();
             pessoaFisica.Enqueue(objPessoaFisica1);
@@ -47,7 +67,7 @@ namespace Collections
 
             foreach(var pessoas in pessoaFisica)
             {
-                Console.WriteLine("Nome: {0} | Data de nascimento: {1}", pessoas.nome, pessoas.dtNascFund);
+                Console.WriteLine("\nNome: {0} | Data de nascimento: {1}\nEndereço(s):", pessoas.nome, pessoas.dtNascFund);
                 foreach (var endereco in pessoas.ListaEnderecos)
                 {
                     Console.WriteLine("ID: {0} | Bairro: {1} | Logradouro {2}", endereco.Id, endereco.Bairro, endereco.Logradouro);
