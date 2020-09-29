@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Collections
+namespace Exceptions
 {
     class PessoaFisica : Pessoa
     {

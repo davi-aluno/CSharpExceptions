@@ -1,4 +1,4 @@
-﻿namespace Collections
+﻿namespace Exceptions
 {
     class ClientePF : Pessoa
     {

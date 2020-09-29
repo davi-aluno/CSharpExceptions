@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Collections
+namespace Exceptions
 {
     abstract class Pessoa
     {

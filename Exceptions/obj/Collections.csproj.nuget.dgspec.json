@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/davi/development/exercicios/CollectionsOOP/Collections/Collections.csproj": {}
+    "/home/davi/development/exercicios/CollectionsOOP/Exceptions/Collections.csproj": {}
   },
   "projects": {
-    "/home/davi/development/exercicios/CollectionsOOP/Collections/Collections.csproj": {
+    "/home/davi/development/exercicios/CollectionsOOP/Exceptions/Collections.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/davi/development/exercicios/CollectionsOOP/Collections/Collections.csproj",
+        "projectUniqueName": "/home/davi/development/exercicios/CollectionsOOP/Exceptions/Collections.csproj",
         "projectName": "Collections",
-        "projectPath": "/home/davi/development/exercicios/CollectionsOOP/Collections/Collections.csproj",
+        "projectPath": "/home/davi/development/exercicios/CollectionsOOP/Exceptions/Collections.csproj",
         "packagesPath": "/home/davi/.nuget/packages/",
-        "outputPath": "/home/davi/development/exercicios/CollectionsOOP/Collections/obj/",
+        "outputPath": "/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/davi/.nuget/NuGet/NuGet.Config"

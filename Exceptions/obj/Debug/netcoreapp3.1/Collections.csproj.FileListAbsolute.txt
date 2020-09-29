@@ -24,3 +24,16 @@ C:/Users/davii/source/repos/POOExercise/Collections/obj/Debug/netcoreapp3.1/Coll
 /home/davi/development/exercicios/CollectionsOOP/Collections/obj/Debug/netcoreapp3.1/Collections.dll
 /home/davi/development/exercicios/CollectionsOOP/Collections/obj/Debug/netcoreapp3.1/Collections.pdb
 /home/davi/development/exercicios/CollectionsOOP/Collections/obj/Debug/netcoreapp3.1/Collections.genruntimeconfig.cache
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections.deps.json
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections.runtimeconfig.json
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections.runtimeconfig.dev.json
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections.dll
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/bin/Debug/netcoreapp3.1/Collections.pdb
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.csprojAssemblyReference.cache
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.AssemblyInfoInputs.cache
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.AssemblyInfo.cs
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.csproj.CoreCompileInputs.cache
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.dll
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.pdb
+/home/davi/development/exercicios/CollectionsOOP/Exceptions/obj/Debug/netcoreapp3.1/Collections.genruntimeconfig.cache

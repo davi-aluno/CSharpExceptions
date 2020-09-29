@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RYS2EUYSfg39no4qZL2/7n2aGILb6wnGWAJEipTL8k+2fiOSI7XrQvlhHrZs1PicZmtKJtzrrngcOkTJjZkntg==",
+  "dgSpecHash": "CnlqIkGCN65ceN7dKRasLkzVwZyw/2pJKpo2U+EgN5OqpuZ99w0Xvyr7PYZXZw4qsrxVDtC/w7D+/dW7PRPeQQ==",
   "success": true,
-  "projectFilePath": "/home/davi/development/exercicios/CollectionsOOP/Collections/Collections.csproj",
+  "projectFilePath": "/home/davi/development/exercicios/CollectionsOOP/Exceptions/Collections.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
